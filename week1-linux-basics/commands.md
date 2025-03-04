@@ -15,4 +15,10 @@
 
 `sudo chmod 640 /home/nonso/logs`  
 
-![alt text](image-2.png)
+![alt text](image-2.png)  
+
+### Scenario: Your server is running slowly. You need to investigate high CPU usage and stop a misbehaving process.  
+
+`ps aux --sort=-%cpu | head -10`
+
+![alt text](image-3.png)
